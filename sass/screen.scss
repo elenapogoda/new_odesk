@@ -1,0 +1,24 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "social/*.png";
+//@include all-social-sprites;
+
+	.social-social-g {
+		@include social-sprite(social-g);
+	}
+	.social-social-tw {
+		@include social-sprite(social-tw);
+	}
+	.social-social-in {
+		@include social-sprite(social-in);
+	}
+	.social-social-f {
+		@include social-sprite(social-f);
+	}
+	.social-social-yt {
+		@include social-sprite(social-yt);
+	}
