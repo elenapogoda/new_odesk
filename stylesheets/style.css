@@ -1,31 +1,6 @@
 /* line 74, social/*.png */
-.social-sprite, .social-social-f, .social-social-g, .social-social-in, .social-social-tw, .social-social-yt {
-  background: url('/images/social-s204c27c7e5.png') no-repeat;
-}
-
-/* line 60, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.social-social-f {
-  background-position: 0 -152px;
-}
-
-/* line 60, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.social-social-g {
-  background-position: 0 -38px;
-}
-
-/* line 60, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.social-social-in {
-  background-position: 0 -114px;
-}
-
-/* line 60, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.social-social-tw {
-  background-position: 0 -76px;
-}
-
-/* line 60, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.social-social-yt {
-  background-position: 0 0;
+.social-sprite, .footer-wrapper .block .social-sprite li a .social-social-g, .footer-wrapper .block .social-sprite li a .social-social-tw, .footer-wrapper .block .social-sprite li a .social-social-in, .footer-wrapper .block .social-sprite li a .social-social-f, .footer-wrapper .block .social-sprite li a .social-social-yt {
+  background: url('../images/social-s204c27c7e5.png') no-repeat;
 }
 
 /* line 7, ../sass/style.scss */
@@ -219,13 +194,40 @@ body {
   color: #4ea329;
 }
 /* line 161, ../sass/style.scss */
-.footer-wrapper .block .social-sprite li, .footer-wrapper .block .social-social-f li, .footer-wrapper .block .social-social-g li, .footer-wrapper .block .social-social-in li, .footer-wrapper .block .social-social-tw li, .footer-wrapper .block .social-social-yt li {
-  list-style: none;
+.footer-wrapper .block .social-sprite, .footer-wrapper .block .social-sprite li a .social-social-g, .footer-wrapper .block .social-sprite li a .social-social-tw, .footer-wrapper .block .social-sprite li a .social-social-in, .footer-wrapper .block .social-sprite li a .social-social-f, .footer-wrapper .block .social-sprite li a .social-social-yt {
+  position: relative;
 }
 /* line 163, ../sass/style.scss */
-.footer-wrapper .block .social-sprite li a, .footer-wrapper .block .social-social-f li a, .footer-wrapper .block .social-social-g li a, .footer-wrapper .block .social-social-in li a, .footer-wrapper .block .social-social-tw li a, .footer-wrapper .block .social-social-yt li a {
+.footer-wrapper .block .social-sprite li, .footer-wrapper .block .social-sprite li a .social-social-g li, .footer-wrapper .block .social-sprite li a .social-social-tw li, .footer-wrapper .block .social-sprite li a .social-social-in li, .footer-wrapper .block .social-sprite li a .social-social-f li, .footer-wrapper .block .social-sprite li a .social-social-yt li {
+  list-style: none;
+  margin: 0px;
+  padding: opx;
+  position: absolute;
+  top: 0px;
+}
+/* line 169, ../sass/style.scss */
+.footer-wrapper .block .social-sprite li a, .footer-wrapper .block .social-sprite li a .social-social-g li a, .footer-wrapper .block .social-sprite li a .social-social-tw li a, .footer-wrapper .block .social-sprite li a .social-social-in li a, .footer-wrapper .block .social-sprite li a .social-social-f li a, .footer-wrapper .block .social-sprite li a .social-social-yt li a {
   display: block;
-  float: left;
   height: 38px;
   width: 38px;
+}
+/* line 173, ../sass/style.scss */
+.footer-wrapper .block .social-sprite li a .social-social-g {
+  background-position: 0 -38px;
+}
+/* line 174, ../sass/style.scss */
+.footer-wrapper .block .social-sprite li a .social-social-tw {
+  background-position: 0 -76px;
+}
+/* line 175, ../sass/style.scss */
+.footer-wrapper .block .social-sprite li a .social-social-in {
+  background-position: 0 -114px;
+}
+/* line 176, ../sass/style.scss */
+.footer-wrapper .block .social-sprite li a .social-social-f {
+  background-position: 0 -152px;
+}
+/* line 177, ../sass/style.scss */
+.footer-wrapper .block .social-sprite li a .social-social-yt {
+  background-position: 0 0;
 }

@@ -67,4 +67,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* line 74, social/*.png */
+.social-sprite, .social-social-g, .social-social-tw, .social-social-in, .social-social-f, .social-social-yt {
+  background: url('../images/social-s204c27c7e5.png') no-repeat;
+}
 
+/* line 10, ../sass/screen.scss */
+.social-social-g {
+  background-position: 0 -38px;
+}
+
+/* line 13, ../sass/screen.scss */
+.social-social-tw {
+  background-position: 0 -76px;
+}
+
+/* line 16, ../sass/screen.scss */
+.social-social-in {
+  background-position: 0 -114px;
+}
+
+/* line 19, ../sass/screen.scss */
+.social-social-f {
+  background-position: 0 -152px;
+}
+
+/* line 22, ../sass/screen.scss */
+.social-social-yt {
+  background-position: 0 0;
+}
