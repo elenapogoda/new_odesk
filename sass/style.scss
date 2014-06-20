@@ -152,11 +152,17 @@ body {
 						font-weight: bold;
 						text-transform: uppercase;
 					}
+					&:last-child {
+						text-transform: lowercase;
+					}
 					
 					a {
-						&:hover {
-							color: adjust-lightness($p1-cl, -18);
-						}
+						text-decoration: none;
+						color: $bg-cl;
+							&:hover {
+								color: adjust-lightness($p1-cl, -18);
+								text-decoration: none;
+							}
 					}
 				}
 				.social-sprite {
@@ -165,14 +171,19 @@ body {
 							display: inline-block;
 							height: 38px;
 							width: 38px;
+
 								a {
-									text-decoration: none;
 									display: inline-block;
-									width: 100%;
 									height: 100%;
-									text-indent: 100%;
-									white-space: nowrap;
 									overflow: hidden;
+									text-decoration: none;
+									text-indent: 100%;
+									width: 100%;
+									white-space: nowrap;
+										&:hover {
+										color: adjust-lightness($p1-cl, -18);
+										}
+									
 								}									
 						}
 				}
