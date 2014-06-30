@@ -151,11 +151,7 @@ body {
 					&:first-child {
 						font-weight: bold;
 						text-transform: uppercase;
-					}
-					&:last-child {
-						text-transform: lowercase;
-					}
-					
+					}	
 					a {
 						text-decoration: none;
 						color: $bg-cl;
@@ -164,9 +160,18 @@ body {
 								text-decoration: none;
 							}
 					}
+				.social {
+						li {
+							&:last-child {
+								font-style: italic;
+								text-transform: lowercase;
+							}
+						}
+					}
 				}
 				.social-sprite {
 					text-align: center;
+					
 						li{
 							display: inline-block;
 							height: 38px;
@@ -180,10 +185,7 @@ body {
 									text-indent: 100%;
 									width: 100%;
 									white-space: nowrap;
-										&:hover {
-										color: adjust-lightness($p1-cl, -18);
-										}
-									
+
 								}									
 						}
 				}
