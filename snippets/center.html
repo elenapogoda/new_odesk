@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <style type="text/css">
+      /* Magin auto example. */
+      #page-wrapper {
+        display: block;
+        background: red;
+        margin-bottom: 20px;
+      }
+      #page-wrapper #header {
+        display: block;
+        width: 960px;
+        margin: auto;
+        background: blue;
+        height: 100px;
+      }
+      /* END - Magin auto example. */
+
+      /* display: inline-block, parent text-align:center */
+      #block-wrapper {
+        display: inline-block;
+        background: red;
+        width: 100%;
+        text-align: center;
+      }
+      #block-wrapper #block {
+        display: inline-block;
+        background: blue;
+        width: 960px;
+        /* margin: auto; - It should not work here. */
+      }
+      /* END - display: inline-block, parent text-align:center */
+    </style>
+  </head>
+  <body>
+    <!-- Magin auto example. -->
+    <div id="page-wrapper">
+      <div id="header">Cetner - margin auto example. Keep attantion - > display: block.</div>
+    </div>
+    <!-- END - Magin auto example. -->
+
+    <!-- display: inline-block, parent text-align:center -->
+    <div id="block-wrapper">
+      <div id="block">It is applied to display: inline-block. The block behave as text. So we tell a parent element how to align text.</div>
+    </div>
+    <!-- END - display: inline-block, parent text-align:center -->
+  </body>
+</html>
