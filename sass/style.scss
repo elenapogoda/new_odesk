@@ -118,6 +118,7 @@ body {
 .footer-wrapper {
     background: $p2-cl;
     display: block;
+    text-align: center;
     footer {
         @include inline-block;
         padding: $padding;

@@ -184,8 +184,9 @@ body {
 .footer-wrapper {
   background: #545454;
   display: block;
+  text-align: center;
 }
-/* line 121, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .footer-wrapper footer {
   display: -moz-inline-stack;
   display: inline-block;
@@ -196,7 +197,7 @@ body {
   padding: 12px;
   width: 960px;
 }
-/* line 126, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .footer-wrapper .block {
   font-family: "Nimbus Sans L";
   font-size: 14px;
@@ -205,41 +206,41 @@ body {
   line-height: 14px;
   padding: 12px;
 }
-/* line 133, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .footer-wrapper .block li {
   font-size: 8px;
 }
-/* line 135, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .footer-wrapper .block li:first-child {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 139, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .footer-wrapper .block li a {
   text-decoration: none;
   color: white;
 }
-/* line 142, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .footer-wrapper .block li a:hover {
   color: #4ea329;
   text-decoration: none;
 }
-/* line 149, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .footer-wrapper .block li .social li:last-child {
   font-style: italic;
   text-transform: lowercase;
 }
-/* line 156, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .footer-wrapper .block .social-sprite, .footer-wrapper .block .social-social-f, .footer-wrapper .block .social-social-g, .footer-wrapper .block .social-social-in, .footer-wrapper .block .social-social-tw, .footer-wrapper .block .social-social-yt {
   text-align: center;
 }
-/* line 158, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .footer-wrapper .block .social-sprite li, .footer-wrapper .block .social-social-f li, .footer-wrapper .block .social-social-g li, .footer-wrapper .block .social-social-in li, .footer-wrapper .block .social-social-tw li, .footer-wrapper .block .social-social-yt li {
   display: inline-block;
   height: 38px;
   width: 38px;
 }
-/* line 162, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .footer-wrapper .block .social-sprite li a, .footer-wrapper .block .social-social-f li a, .footer-wrapper .block .social-social-g li a, .footer-wrapper .block .social-social-in li a, .footer-wrapper .block .social-social-tw li a, .footer-wrapper .block .social-social-yt li a {
   display: inline-block;
   height: 100%;
