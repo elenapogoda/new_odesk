@@ -3,196 +3,172 @@
 @import "partials/base";
 @import "compass/utilities/sprites";
 @import "social/*.png";
+
 @include all-social-sprites;
 
 body {
-	background: $bg-cl;
-	color: $txt-cl;
-	font-family: $txt-fnt;
-	font-size: $fnt-size; 
+    background: $bg-cl;
+    color: $txt-cl;
+    font-family: $txt-fnt;
+    font-size: $fnt-size;
 }
+
 .header-wrapper {
-	background: $p1-cl;
-	display: block;
-	text-align: center;
-		
-	header {
-		@include inline-block;
-		width: 960px;
-		padding: $padding;
-		
-		#user_menu {
-			float: right;
-	
-			.menu {
-				@include inline-block;
-							
-				.menu_item {
-					font-family: $control-fnt;
-					font-size: $fnt-size - 4;
-					font-weight: bold;
-					float: left;
-					color: $p5-cl;
-					padding: 2 * $padding 0 2 * $padding $padding;
-					cursor: pointer;
-					
-					&:hover {
-						color: adjust-lightness($p1-cl, -18);
-					}	
-					&:last-child {
-						// padding-right: $padding;
-						@include border-radius;
-						background: adjust-lightness($p1-cl, -10);
-						margin-left: $margin;
-						text-transform: uppercase;
-						padding: 2 * $padding $padding; 
-						&:hover{
-							background: adjust-lightness($p1-cl, -18);
-							color: $p5-cl;
-
-						}
-					}
-				}
-			}
-		}
-		#help_menu {
-			float: left;
-
-			.menu {
-				@include inline-block;
-
-				.menu_item {
-					float: left;
-					font-family: $control-fnt;
-					font-size: $fnt-size - 4;
-					font-weight: bold;
-					color: $p5-cl;
-					padding: 2 * $padding 0 2 * $padding $padding;
-					cursor: pointer;
-					text-transform: uppercase;
-						
-						&:hover {
-							color: adjust-lightness($p1-cl, -18);
-						}
-						&:last-child {
-							margin-left: $margin;
-						}
-				}
-			}
-		}
-		#search_box{
-			@include inline-block;
-			float: left;
-			padding: $padding;
-
-			.select_box{
-				background: adjust-lightness($p1-cl, -18);
-				float: left;
-				font-size: $fnt-size - 4;
-				font-weight: bold;
-				height: $fnt-size;
-				line-height: $fnt-size;
-				color: $p5-cl;
-				padding: $padding;
-				font-family: $control-fnt;
-			}
-
-			input{
-				font-size: $fnt-size;
-				line-height: $fnt-size;
-				float: left;
-				height: $fnt-size + $padding * 2;
-				border: 0px;
-				margin: 0px;
-				padding: 0px;
-
-				&[type=text] {
-					border: solid 1px adjust-lightness($p5-cl, -12);
-					padding-left: $padding;
-					font-style: italic;
-					background:  url(../images/svg/background_icon.svg) no-repeat $p5-cl;
-
-					&:focus {
-						background: $p5-cl;
-					}
-				}
-			
-				&[type=submit] { 
-					background: url(../images/svg/icon_search.svg) no-repeat adjust-lightness($p5-cl, -12);
-					width: $fnt-size + $padding * 2;
-					content: ".";
-				}
-			}
-		
-		}                                   
-	}
+    background: $p1-cl;
+    display: block;
+    text-align: center;
+    header {
+        @include inline-block;
+        width: 960px;
+        padding: $padding;
+        #user_menu {
+            float: right;
+            .menu {
+                @include inline-block;
+                .menu_item {
+                    font-family: $control-fnt;
+                    font-size: $fnt-size - 4;
+                    font-weight: bold;
+                    float: left;
+                    color: $p5-cl;
+                    padding: 2 * $padding 0 2 * $padding $padding;
+                    cursor: pointer;
+                    &:hover {
+                        color: adjust-lightness($p1-cl, -18);
+                    }
+                    &:last-child {
+                        // padding-right: $padding;
+                        @include border-radius;
+                        background: adjust-lightness($p1-cl, -10);
+                        margin-left: $margin;
+                        text-transform: uppercase;
+                        padding: 2 * $padding $padding;
+                        &:hover {
+                            background: adjust-lightness($p1-cl, -18);
+                            color: $p5-cl;
+                        }
+                    }
+                }
+            }
+        }
+        #help_menu {
+            float: left;
+            .menu {
+                @include inline-block;
+                .menu_item {
+                    float: left;
+                    font-family: $control-fnt;
+                    font-size: $fnt-size - 4;
+                    font-weight: bold;
+                    color: $p5-cl;
+                    padding: 2 * $padding 0 2 * $padding $padding;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: adjust-lightness($p1-cl, -18);
+                    }
+                    &:last-child {
+                        margin-left: $margin;
+                    }
+                }
+            }
+        }
+        #search_box {
+            @include inline-block;
+            float: left;
+            padding: $padding;
+            .select_box {
+                background: adjust-lightness($p1-cl, -18);
+                float: left;
+                font-size: $fnt-size - 4;
+                font-weight: bold;
+                height: $fnt-size;
+                line-height: $fnt-size;
+                color: $p5-cl;
+                padding: $padding;
+                font-family: $control-fnt;
+            }
+            input {
+                font-size: $fnt-size;
+                line-height: $fnt-size;
+                float: left;
+                height: $fnt-size + $padding * 2;
+                border: 0px;
+                margin: 0px;
+                padding: 0px;
+                &[type=text] {
+                    border: solid 1px adjust-lightness($p5-cl, -12);
+                    padding-left: $padding;
+                    font-style: italic;
+                    background: url(../images/svg/background_icon.svg) no-repeat $p5-cl;
+                    &:focus {
+                        background: $p5-cl;
+                    }
+                }
+                &[type=submit] {
+                    background: url(../images/svg/icon_search.svg) no-repeat adjust-lightness($p5-cl, -12);
+                    width: $fnt-size + $padding * 2;
+                    content: ".";
+                }
+            }
+        }
+    }
 }
 
 .footer-wrapper {
-	background: $p2-cl;
-	display: block;
-		
-	footer {
-		@include inline-block;
-		padding: $padding;
-		width: 960px;
-	}
-		.block {
-			font-family: $control-fnt;
-			font-size: $fnt-size;
-			float: right;
-			color: $p5-cl;
-			line-height: $fnt-size;
-			padding: $padding;
-
-				li {
-					font-size: $fnt-size - 6;
-					
-					&:first-child {
-						font-weight: bold;
-						text-transform: uppercase;
-					}	
-					a {
-						text-decoration: none;
-						color: $bg-cl;
-							&:hover {
-								color: adjust-lightness($p1-cl, -18);
-								text-decoration: none;
-							}
-					}
-				.social {
-						li {
-							&:last-child {
-								font-style: italic;
-								text-transform: lowercase;
-							}
-						}
-					}
-				}
-				.social-sprite {
-					text-align: center;
-					
-						li{
-							display: inline-block;
-							height: 38px;
-							width: 38px;
-
-								a {
-									display: inline-block;
-									height: 100%;
-									overflow: hidden;
-									text-decoration: none;
-									text-indent: 100%;
-									width: 100%;
-									white-space: nowrap;
-
-								}									
-						}
-				}
-		}
-}				
-				
-				
-			
-			
-	
+    background: $p2-cl;
+    display: block;
+    footer {
+        @include inline-block;
+        padding: $padding;
+        width: 960px;
+    }
+    .block {
+        font-family: $control-fnt;
+        font-size: $fnt-size;
+        float: right;
+        color: $p5-cl;
+        line-height: $fnt-size;
+        padding: $padding;
+        li {
+            font-size: $fnt-size - 6;
+            &:first-child {
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            a {
+                text-decoration: none;
+                color: $bg-cl;
+                &:hover {
+                    color: adjust-lightness($p1-cl, -18);
+                    text-decoration: none;
+                }
+            }
+            .social {
+                li {
+                    &:last-child {
+                        font-style: italic;
+                        text-transform: lowercase;
+                    }
+                }
+            }
+        }
+        .social-sprite {
+            text-align: center;
+            li {
+                display: inline-block;
+                height: 38px;
+                width: 38px;
+                a {
+                    display: inline-block;
+                    height: 100%;
+                    overflow: hidden;
+                    text-decoration: none;
+                    text-indent: 100%;
+                    width: 100%;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
