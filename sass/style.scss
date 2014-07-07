@@ -131,6 +131,7 @@ body {
         color: $p5-cl;
         line-height: $fnt-size;
         padding: $padding;
+        width: 150px;
         li {
             font-size: $fnt-size - 6;
             &:first-child {
@@ -156,6 +157,8 @@ body {
         }
         .social-sprite {
             text-align: center;
+            width: 210px;
+            height: 38px;
             li {
                 display: inline-block;
                 height: 38px;
