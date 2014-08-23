@@ -131,7 +131,7 @@ body {
         color: $p5-cl;
         line-height: $fnt-size;
         padding: $padding;
-        width: 150px;
+        width: 216px;
         li {
             font-size: $fnt-size - 6;
             &:first-child {
@@ -174,14 +174,6 @@ body {
                 }
             }
         }
-        .first_list {
-            @include inline-block;
-            height: 50px;
-            width: 120px;
-            .logo {
-                background: url(../images/svg/logo.svg) no-repeat;
-            }
-        }
         .fifth_list {
             height: 38px;
             width: 110px;
@@ -216,5 +208,21 @@ body {
                 }
             }
         }
+    }
+}
+.after_footer_wrapper {
+    background: $p2-cl;
+    text-align: center;
+    .logo {
+        @include inline-block;
+        background: url(../images/svg/logo.svg) no-repeat;
+        content: " ";
+        height: 27px;
+        width: 103px;
+    }
+    .copyright {
+        padding: $padding;
+        color: $bg-cl;
+        font-size: $fnt-size - 4px;
     }
 }

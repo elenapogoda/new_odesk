@@ -205,7 +205,7 @@ body {
   color: white;
   line-height: 14px;
   padding: 12px;
-  width: 150px;
+  width: 216px;
 }
 /* line 135, ../sass/style.scss */
 .footer-wrapper .block li {
@@ -264,31 +264,16 @@ body {
   white-space: nowrap;
 }
 /* line 177, ../sass/style.scss */
-.footer-wrapper .block .first_list {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  height: 50px;
-  width: 120px;
-}
-/* line 181, ../sass/style.scss */
-.footer-wrapper .block .first_list .logo {
-  background: url(../images/svg/logo.svg) no-repeat;
-}
-/* line 185, ../sass/style.scss */
 .footer-wrapper .block .fifth_list {
   height: 38px;
   width: 110px;
 }
-/* line 189, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .footer-wrapper .block .fifth_list li:first-child {
   background: url(../images/svg/icon_people.svg) no-repeat;
   padding-left: 24px;
 }
-/* line 193, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .footer-wrapper .block .fifth_list li a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -300,13 +285,13 @@ body {
   vertical-align: middle;
   width: 90px;
 }
-/* line 201, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .footer-wrapper .block .sixth_list {
   height: 38px;
   padding-top: 12px;
   width: 50px;
 }
-/* line 205, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .footer-wrapper .block .sixth_list li {
   background: url(../images/svg/find_job.svg) no-repeat;
   display: -moz-inline-stack;
@@ -319,7 +304,7 @@ body {
   width: 26px;
   padding-left: 24px;
 }
-/* line 211, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .footer-wrapper .block .sixth_list li a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -330,4 +315,29 @@ body {
   text-align: center;
   vertical-align: middle;
   width: 60px;
+}
+
+/* line 213, ../sass/style.scss */
+.after_footer_wrapper {
+  background: #545454;
+  text-align: center;
+}
+/* line 216, ../sass/style.scss */
+.after_footer_wrapper .logo {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background: url(../images/svg/logo.svg) no-repeat;
+  content: " ";
+  height: 27px;
+  width: 103px;
+}
+/* line 223, ../sass/style.scss */
+.after_footer_wrapper .copyright {
+  padding: 12px;
+  color: white;
+  font-size: 10px;
 }
